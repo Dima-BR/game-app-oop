@@ -1,0 +1,86 @@
+body {
+    background-color: #282c34; 
+}
+
+.navbar {
+    background-color: #3b5998;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+    max-height: 30px; 
+    margin-right: 1rem;
+}
+
+.navbar-brand span {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.5rem;
+    font-size: smaller;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; 
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* White toggler icon */
+}
+
+/* Navigation done  */
+/* Card style  */
+
+.card {
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    color: #aaa; 
+    margin-bottom: 1rem;
+    height: 70px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.badge {
+  background-color: #0d6efd;
+}
+.text-muted{
+  color: #aaa !important;
+  font-size: small;
+}
